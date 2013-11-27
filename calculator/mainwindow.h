@@ -16,7 +16,7 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton0_clicked();
+    void onDigitClicked();
 
 private:
     Ui::MainWindow *ui;
