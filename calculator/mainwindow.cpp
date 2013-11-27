@@ -12,3 +12,8 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pushButton0_clicked()
+{
+    ui->plainTextEdit->appendPlainText("0");
+}
