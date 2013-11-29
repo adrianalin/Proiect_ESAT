@@ -16,10 +16,18 @@ public:
     ~MainWindow();
 
 private slots:
+    void additiveOperator();
     void onDigitClicked();
+    void equalPressed();
+    void clearPressed();
 
 private:
+    void calculate(double operand);
     Ui::MainWindow *ui;
+
+    double rezult;
+    QString clickedOperator;
+    bool operatorPressed;
 };
 
 #endif // MAINWINDOW_H
