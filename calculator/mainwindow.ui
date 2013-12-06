@@ -52,7 +52,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>*</string>
+         <string>x</string>
         </property>
        </widget>
       </item>
@@ -304,7 +304,7 @@
        </widget>
       </item>
       <item row="4" column="4">
-       <widget class="QPushButton" name="pushButton1_x">
+       <widget class="QPushButton" name="pushButtonPow">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
           <horstretch>0</horstretch>
@@ -312,7 +312,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>1/x</string>
+         <string>x^2</string>
         </property>
        </widget>
       </item>
@@ -423,7 +423,7 @@
   <tabstop>pushButton5</tabstop>
   <tabstop>pushButton6</tabstop>
   <tabstop>pushButtonStar</tabstop>
-  <tabstop>pushButton1_x</tabstop>
+  <tabstop>pushButtonPow</tabstop>
   <tabstop>pushButton1</tabstop>
   <tabstop>pushButton2</tabstop>
   <tabstop>pushButton3</tabstop>

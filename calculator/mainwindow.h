@@ -20,12 +20,30 @@ private slots:
     void onDigitClicked();
     void equalPressed();
     void clearPressed();
+    void sqrtPressed();
+    void percentPressed();
+
+    void on_pushButtonPow_clicked();
+
+    void on_pushButtonBackspace_clicked();
+
+    void on_pushButtonMS_clicked();
+
+    void on_pushButtonMR_clicked();
+
+    void on_pushButtonMC_clicked();
+
+    void on_pushButtonMplus_clicked();
+
+    void on_pushButtonMminus_clicked();
+
+    void on_pushButtonCE_clicked();
 
 private:
     void calculate(double operand);
     Ui::MainWindow *ui;
 
-    double rezult;
+    double rezult, memory;
     QString clickedOperator;
     bool operatorPressed;
 };
